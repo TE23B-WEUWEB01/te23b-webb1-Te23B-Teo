@@ -2,6 +2,10 @@ body{
     
     color: rgb(170, 23, 23);
     background-color: coral;
+    background-image:url("./bilder/danny-greenberg-NvjC3U4Lay4-unsplash.jpg");
+    background-repeat: no-repeat;
+   
+    background-size: cover;
 }
 h1{
     color: rgb(110, 23, 23);
@@ -10,4 +14,8 @@ h1{
 h2{
     color: rgb(140, 23, 23);
     font-size: 35px;
+    font-family: "Nerko One", cursive;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
