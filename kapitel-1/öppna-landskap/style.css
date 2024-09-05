@@ -1,0 +1,30 @@
+body{
+    background-image:url("./bilder/image-24.jpg");
+    background-attachment: fixed;
+    text-align: center;
+    background-size: cover;
+}
+h1{
+    color: rgb(0, 182, 82);
+    font-size: 80px;
+    font-family: "Honk", system-ui;
+}
+h2{
+    color: rgb(101, 17, 3);
+    font-size: 35px;
+    font-family: "Nerko One", cursive;
+}
+p{
+    color: rgb(117, 12, 12);
+    font-family: "Handjet", sans-serif;
+    background-color: rgba(255, 255, 255, 0.324);
+    width: 300px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+a{
+    color: rgb(117, 12, 12);
+    font-family: "Handjet", sans-serif;
+}
