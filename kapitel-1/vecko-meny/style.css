@@ -1,0 +1,44 @@
+body{
+    margin: 40px;
+    background-color: rgba(250, 235, 215, 0.751);
+}
+
+img{
+    width: 190px;
+    border: 3px solid;
+}
+td{
+
+    font-size: 15px;
+    color: rgba(151, 10, 64, 0.753);
+    background-color: rgb(142, 185, 222);
+    padding: 10px;
+    
+}
+caption{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.753);
+    background-image: url("./bilder/bakgrund.jpg");
+    padding: 5px;
+    font-weight: bold;
+}
+th{
+    color: rgba(108, 5, 45, 0.753);
+    padding: 5px;
+    background-color:rgba(160, 196, 228, 0.858) ;
+
+}
+th:hover{
+    background-color:rgba(160, 196, 228, 0.525) ;
+    font-size: 20px;
+    
+}
+td:hover{
+    background-color:rgba(160, 196, 228, 0.525) ;
+    font-size: 15px;
+    background-color: rgba(142, 185, 222, 0.616);    
+}
+table{
+    width: 1200;
+    margin: auto;
+}
