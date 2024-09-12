@@ -1,0 +1,16 @@
+
+body {
+    background: #000000 url(earth.jpg) 0px 0px;
+    background-size: 1300px 1300px;
+    background-image: url(./bilder/The_Earth_seen_from_Apollo_17.jpg);
+    background-repeat: no-repeat;
+    background-color: 000;
+    background-position: 700px 10px;
+    margin-left: 40px;
+}
+h1 {
+    font: bold 140px sans-serif;
+    color: #FFF;
+    width: 700px;
+}
+
