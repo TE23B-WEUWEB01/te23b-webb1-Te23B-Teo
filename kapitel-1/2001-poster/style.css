@@ -7,10 +7,47 @@ body {
     background-color: 000;
     background-position: 700px 10px;
     margin-left: 40px;
+        background-size: cover; /* Cover the area with the image */
+    transform: translate(-50%, -50%); /* Center the image */
+    animation: spin 10s linear infinite; /* Animation parameters */
+    z-index: -1; /* Place behind any content */
 }
 h1 {
     font: bold 140px sans-serif;
     color: #FFF;
     width: 700px;
+}
+body {
+    position: relative;
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent any overflow from the spinning image */
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1300px; /* Set width according to your needs */
+    height: 1300px; /* Set height according to your needs */
+    background: url(./bilder/The_Earth_seen_from_Apollo_17.jpg) no-repeat center center;
+    background-size: cover; /* Cover the area with the image */
+    transform: translate(-50%, -50%); /* Center the image */
+    animation: spin 10s linear infinite; /* Animation parameters */
+    z-index: -1; /* Place behind any content */
+}
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg); /* Start without rotation */
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg); /* Full rotation */
+    }
+}
+
+body {
+    background: #000000; /* Fallback color */
 }
 

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-image: url("./bilder/max-WZM9IcX5plw-unsplash\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: "Mukta", system-ui;
+    font-size: 70px;
+    color: blueviolet;
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-left: 30px;
+    display: inline;
+    cursor: pointer;
+    display: inline;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+h2 {
+    font-family: "Mukta", system-ui;
+    font-size: 35px;
+    color: blueviolet;
+    margin-top: -20px;
+    margin-left: 70px;
+}
+
+p {
+    font-family: "Mukta", system-ui;
+    font-size: 18px;
+    color: blueviolet;
+    margin-top: -100px;
+    margin-left: 1000px;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ae177c;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 15px;
+    border: 1.5px solid rgb(0, 0, 0);
+
+}
+
+h1:hover {
+    color: rgb(66, 68, 69);
+    font-size: 80px;
+    filter: invert(1);
+}
+
+a:hover {
+    background-color: #ae177c;
+    background-size: 5px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
