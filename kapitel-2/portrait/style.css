@@ -1,0 +1,53 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Set a default font */
+    background-image: url(./bilder/nikola-johnny-mirkovic-96zMyBgvMWM-unsplash.jpg);
+    background-size: cover; /* Full-screen background */
+    background-repeat: no-repeat; /* Avoid repetitive background */
+    background-attachment: fixed; /* Create a parallax effect */
+    color: #ffffff; /* Default text color */
+    text-align: center;
+}
+
+/* King Image Styles */
+img {
+    display: block; /* Make it block-level */
+    max-width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center with a margin */
+    border-radius: 10px; /* Add some rounded corners */
+}
+
+/* Description Text Styles */
+.description {
+    text-align: center; /* Center text */
+    font-size: 1.5em; /* Size of the description */
+    margin: 15px 0; /* Space above and below */
+    transition: transform 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    display: inline-block; /* Change to inline-block to tighten hover area */
+}
+
+/* Description Hover Effect */
+.description:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    color: #ffcc00; /* Change color on hover */
+}
+
+/* Corner Link Styles */
+.corner-link {
+    position: absolute; /* Positioning relative to the body */
+    top: 20px; /* Place it 20px from the top */
+    right: 20px; /* Place it 20px from the right */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+
+.corner-link:hover {
+    background-color: rgba(255, 204, 0, 0.8); /* Change background on hover */
+    color: black; /* Change text color on hover */
+}
