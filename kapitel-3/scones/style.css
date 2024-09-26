@@ -1,0 +1,54 @@
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./bilder/dwa.jpg);
+    background-size: cover;
+}
+div{
+    background: rgba(97, 51, 205, 0.815);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 550px;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+ul{
+    list-style: circle;
+    padding-left: 20px;
+}
+h1, h2{
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+li{
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+img{
+    width: 200px;
+    height: 150px;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+h1:hover{
+    font-size: 33px;
+    color: rgb(86, 25, 25);
+}
+h2:hover{
+    font-size: 25px;
+    color: rgb(86, 25, 25);
+}
+li:hover{
+    font-size: 18px;
+    color: rgb(218, 231, 30);
+}
