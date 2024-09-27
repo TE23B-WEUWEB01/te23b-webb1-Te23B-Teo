@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+background-image: url("./bilder/ai-generated-8604390_640.jpg");
+}
+/* boxen för texten */
+div{
+background-color: #eae99deb;
+width: 330px;
+border: 3px dashed burlywood;
+margin: auto;
+margin-top: 150px;
+padding: 10px;
+}
+/* olika texters specificationer */
+h1{
+ margin-left: 12px;
+ font-family: "Roboto Slab", system-ui;
+}
+p{
+margin-left: 12px;
+font-family: "Roboto", sans-serif;
+}
+a{
+margin-left: 15px;
+font-family: "Roboto", sans-serif;
+text-decoration: none;
+color: cadetblue;
+font-weight: bold;
+font-size: 20px;
+}
+a:hover{
+    font-size: 22px;
+    color: rgb(51, 95, 96);
+}
