@@ -1,8 +1,20 @@
+/* mina palleter */
+:root {
+    /* CSS HEX */
+--lapis-lazuli: #22577aff;
+--verdigris: #38a3a5ff;
+--emerald: #57cc99ff;
+--light-green: #80ed99ff;
+--tea-green: #c7f9ccff;
+}
+
+
+
 body{
     background-color: black;
 }
 div.kontainer{
-    background-color: green;
+    background-color: var(--tea-green);
     color: white;
     margin-left: 200px;
     margin-right: 200px;
@@ -14,7 +26,7 @@ div.kontainer{
 div.inlägg{
     color: white;
     border-image: 5px;
-    background-color: orange;
+    background-color: var(--lapis-lazuli);
     margin: 70px;
     padding: 50px;
     border-radius: 5px;
@@ -29,7 +41,7 @@ h1{
     padding-top: 50px;
 }
 img{
-    border: 10px solid burlywood;
+    border: 10px solid var(--verdigris);
     width: 580px;
     height: 200px;
     box-shadow: 2px 2px 6px 1px black;
