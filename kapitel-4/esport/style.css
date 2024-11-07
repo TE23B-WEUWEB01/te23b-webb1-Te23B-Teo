@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Roboto+Slab&display=swap');
+/* Enkel CSS-reset */
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+/* layout */
+body{
+    background-color: #bd74b2;
+}
+.kontainer{
+    font-family: "roboto", sans-serif;
+    width: 800px;
+    margin: auto;
+    padding: 40px;
+    background-color: #dcf9faea;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.box{
+    background-color: #5a5a5a;
+    color: white;
+}
+
+/* rubrikerna */
+h1{
+font-family: "faster One", sans-serif;
+font-size: 60px;
+text-align: center;
+text-transform: capitalize;
+}
+h2{
+
+}
+
+/* innehåll */
+p{
+line-height: 1.5;
+font-size: 15px;
+}
+img{
+width: 30%;
+}
+.curtesy{
+    margin: 20px 0;
+}
+a{
+
+}
