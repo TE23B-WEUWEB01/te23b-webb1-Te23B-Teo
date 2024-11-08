@@ -23,10 +23,22 @@ body{
     background-color: #dcf9faea;
     margin-top: 20px;
     border-radius: 15px;
+    border: 3px solid black;
+}
+.kolumner{
+    display: flex;
+    gap: 20px;
+    
 }
 .box{
     background-color: #5a5a5a;
     color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
 }
 
 /* rubrikerna */
@@ -47,6 +59,8 @@ font-size: 15px;
 }
 img{
 width: 30%;
+border: 3px solid black;
+border-radius: 10px;
 }
 .curtesy{
     margin: 20px 0;
