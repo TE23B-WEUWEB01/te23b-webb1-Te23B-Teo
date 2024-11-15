@@ -1,0 +1,84 @@
+/* Enkel CSS-reset */
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+}
+
+body{
+background-color: #FFFDB5 ;
+}
+.kontainer{
+background-color: #0f68b1;
+width: 1000px;
+height: 700px;
+margin: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 15px;
+}
+.kanter{
+    width: 300px;
+    height: 300px;
+    background-color: #3FA2F6;
+   float: right;
+   margin-top: 30px;
+   margin-right: 130px;
+   border: 1px solid black;
+   border-radius:70% 100% 70% 100%;
+}
+.middle{
+    width: 300px;
+    height: 300px;
+    background-color: #96C9F4;
+    margin-top: 260px;
+    margin-left: 385px;
+   border-radius: 10px;
+   border-top-right-radius: 100%;
+   border-top-left-radius: 100%;
+   border: 1px solid black;
+   border-radius:70% 100% 70% 100%;
+}
+h1{
+color: #fff;
+text-align: center;
+}
+h2{
+text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+
+}
+a{
+text-decoration: none;
+}
+.infotext{
+    margin-top: 600px;
+    background-color: #7ae2ff;
+    width: 400px;
+    height: 300px;
+    margin-left: 450px;
+}
+
+.matlagning{
+margin-top: -55px;
+margin-left: 25px;
+width: 200px;
+height: 200px;
+border-radius:70% 100% 70% 100%;
+}
+img{
+margin-top: 15px;
+margin-left: 25px;
+width: 200px;
+height: 200px;
+border-radius:70% 100% 70% 100%;
+}
