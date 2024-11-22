@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Moo+Lah+Lah&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Enkel CSS-reset */
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+}
+
+/* Layoutens utseende */
+
+body{
+ background-color:#393E41;
+}
+.kontanier{
+width: 900px;
+padding: 20px;
+margin: auto;
+font-family: "Rubik Distressed", system-ui;
+}
+
+/* meny utseende */
+
+ul{
+    font-family: "Rubik Distressed", system-ui;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+li{
+
+}
+a{
+text-decoration: none;
+background-color: #5E807F;
+padding: 10px;
+border-radius: 3px;
+width: 140px;
+display: inline-block;
+box-shadow: 3px 3px 0 gray;
+text-align: center;
+}
+
+
+/* Innehållet */
+h1{
+font-family: "Moo Lah Lah", sans-serif;;
+color: #17B890;
+font-size: 80px;
+}
+p{
+}
+.tack{
+
+}
+figure{
+
+}
+img{
+width: 100%;
+}
+figcaption{
+
+}
