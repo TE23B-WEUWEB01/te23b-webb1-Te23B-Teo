@@ -25,17 +25,17 @@ font-family: "Rubik Distressed", system-ui;
 
 /* meny utseende */
 
-ul{
+.kontanier ul{
     font-family: "Rubik Distressed", system-ui;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
 }
-li{
+.kontanier ul li{
 
 }
-a{
+.kontanier ul a{
 text-decoration: none;
 background-color: #5E807F;
 padding: 10px;
@@ -46,24 +46,39 @@ box-shadow: 3px 3px 0 gray;
 text-align: center;
 }
 
-
 /* Innehållet */
-h1{
+.kontanier h1{
 font-family: "Moo Lah Lah", sans-serif;;
 color: #17B890;
 font-size: 80px;
+text-align: center;
 }
-p{
+.kontanier p{
+margin: 20px auto;
 }
-.tack{
-
+.kontanier .tack a{
+text-decoration: none;
+color: orange;
 }
-figure{
-
+.kontanier figure{
+width: 60%;
+background-color: #fff;
+padding: 20px;
+margin: 30px auto;
 }
-img{
+.kontanier figure img{
 width: 100%;
 }
-figcaption{
+.kontanier figcaption{
 
+}
+.kontanier ul .aktiv{
+background-color: #455e5d;
+box-shadow: 3px 3px 0 rgb(81, 81, 81);
+color: rgb(138, 138, 194);
+}
+.kontanier ul a:hover{
+    background-color: #455e5d;
+    box-shadow: 3px 3px 0 rgb(81, 81, 81);
+    color: rgb(138, 138, 194);
 }
