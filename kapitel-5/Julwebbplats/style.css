@@ -1,0 +1,32 @@
+body{
+background-color: rgba(128, 128, 128, 0.845);
+}
+.rubri{
+    background-color: red;
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+}
+.kontainer{
+width: 1000px;
+height: 700px;
+background-color: black;
+margin: auto;
+padding-top: 50px;
+margin-top: 20px;
+}
+.waterdrop{
+    background-color: rgb(234, 249, 21);
+    transform: rotate(45deg);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 100% 100% 0px 100%;
+}
+.pwaterdrop{
+    transform: rotate(0deg) translateY(85px) translateX(78px);
+    color: white;
+}
+p{
+    color: orange;
+}
