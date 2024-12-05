@@ -24,9 +24,31 @@ margin-top: 20px;
     border-radius: 100% 100% 0px 100%;
 }
 .pwaterdrop{
-    transform: rotate(0deg) translateY(85px) translateX(78px);
-    color: white;
+    transform: rotate(0deg) translateY(180%) translateX(50%);
+    background-image: linear-gradient(to bottom right, red, rgb(24, 236, 88));
+    border-radius: 100%;
+    width:80px;
+    padding: 10px;
+    box-shadow: -1px 3px rgba(0, 0, 0, 0.507);
 }
 p{
     color: orange;
+}
+ul{
+    font-family: "Rubik Distressed", system-ui;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+a{
+    text-decoration: none;
+    background-color: green;
+    padding: 10px;
+    border-radius: 3px;
+    width: 140px;
+    display: inline-block;
+    box-shadow: 3px 3px 0 red;
+    text-align: center;
+    margin-top: 50px;
 }
