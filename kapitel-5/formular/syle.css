@@ -1,0 +1,74 @@
+/* Enkel CSS-reset */
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+}
+
+body{
+background-color: #eae8dbe8;
+}
+.kontainer{
+    background-color: #f0ebd2cc;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(212, 173, 123);
+}
+.kontainer form{
+
+}
+.kontainer fieldset{
+    width: 500px;
+    margin: auto;
+    border: 3px solid burlywood;
+    background-color: rgb(238, 238, 195);
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    gap: 20px;
+}
+.kontainer legend{
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+}
+.kontainer label{
+    font-size: 16px;
+}
+.kontainer input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    border: 2px solid rgb(222, 193, 156);
+    border-radius: 5px;
+    color: rgb(182, 103, 0);
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.kontainer textarea{
+    height: 100px;
+}
+.kontainer button{
+    background: linear-gradient(to bottom, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%);
+    /* background-color: rgba(23, 98, 46, 0.838); */
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.kontainer button:hover{
+    background-color: rgba(36, 162, 74, 0.838);
+    font-size: 16px;
+}
