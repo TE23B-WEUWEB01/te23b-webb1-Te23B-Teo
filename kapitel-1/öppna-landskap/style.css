@@ -1,4 +1,4 @@
-body{
+/* body{
     background-image:url("./bilder/image-24.jpg");
     background-attachment: fixed;
     text-align: center;
@@ -27,4 +27,12 @@ p{
 a{
     color: rgb(117, 12, 12);
     font-family: "Handjet", sans-serif;
+} */
+body{
+    background-color: rgba(0, 0, 0, 0.537);
+}
+p{
+    text-align: center;
+    color: rgb(74, 194, 31);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

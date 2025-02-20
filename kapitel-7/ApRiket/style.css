@@ -31,22 +31,30 @@ body {
     background-image: url(./bilder/isaac-quesada-6xxxvB72qB0-unsplash.jpg);
 }
 
-.kontainer {
-    width: 1000px;
-    margin: auto;
-    padding: 20px;
-}
-
 /* Bygga layouten */
-.kontainer {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-        "sidhuvud sidhuvud"
-        "artiklarna sidebar"
-        "sidfot sidfot";
+/* för desktop >= 1000px */
+@media (min-width: 1000px ){
+    .kontainer {
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "artiklarna sidebar"
+            "sidfot sidfot";
+            gap: 20px;
+    }  
 }
+/* för läsplatta >= 768px */
+@media (min-width: 1000px){
 
+}
+/* För mobil < 576 */
+@media (min-width: 1000px){
+
+}
 header {
     grid-area: sidhuvud;
     background-color: burlywood;
