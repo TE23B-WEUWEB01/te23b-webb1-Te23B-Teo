@@ -1,6 +1,7 @@
 /* Regler bara för intex.html */
 .wanderer{
     background: #000;
+    color: #fff;
 }
 .wanderer .vimeo {
     position: fixed;
@@ -22,4 +23,20 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 border: none;
+}
+
+
+.wanderer main {
+/* css-trick för vertikal centering */
+display: center;
+align-items: center;
+}
+.Lava-Life h1{
+color: black;
+}
+.Lava-Life header nav a{
+color: black;
+}
+.Lava-Life header nav a:hover, .Lava-Life header nav a.active{
+    border-bottom: 3px solid black;
 }
