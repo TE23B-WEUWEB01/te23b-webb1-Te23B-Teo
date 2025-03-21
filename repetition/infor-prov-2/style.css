@@ -1,0 +1,66 @@
+/* Enkel CSS-reset */
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+img {
+width: 100%;
+}
+
+/* sidans utseende */
+body{
+background: #e6b0b0;
+}
+.kontainer{
+width: 800px;
+margin: auto;
+padding: 30px;
+background: #ffc4c4;
+}
+/* sidhuvudet */
+.kontainer header{
+
+}
+.kontainer header h1{
+    
+}
+.kontainer header nav{
+
+}
+.kontainer header nav a{
+    text-decoration: none;
+    color: black;
+    background: whitesmoke;
+    padding: 10px;
+}
+.kontainer header nav a:hover{
+    background-color: rgb(212, 194, 194);
+}
+.kontainer header nav a.activ{
+    background: rgb(205, 202, 202);
+}
+
+/* sidans innehåll */
+.kontainer main{
+
+}
+.kontainer main h2{
+    
+}
+.kontainer main p{
+    
+}
+
+/* sidan sidfot */
+.kontainer footer{
+
+}
+.kontainer footer p{
+    
+}
