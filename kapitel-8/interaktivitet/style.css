@@ -1,0 +1,13 @@
+.kontainer{
+    width: 700px;
+    margin: auto;
+    padding: 25px;
+    /* background: #fff352; */
+}
+h1{
+    font-size: 50px;
+    color: rgb(50, 150, 204);
+}
+p{
+    visibility: hidden;
+}
