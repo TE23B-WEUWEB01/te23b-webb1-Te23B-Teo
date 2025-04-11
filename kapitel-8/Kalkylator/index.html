@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkylator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Kalkylator</h1>
+        <div class="kolumn-2">
+            <label for="">Tal 1</label><input id="tal1" type="text">
+            <label for="">Tal 2</label><input id="tal2" type="text">
+        </div>
+        <div class="kolumn-4">
+            <button onclick="plus()">+</button>
+            <button onclick="minus()">-</button>
+            <button onclick="dela()">/</button>
+            <button onclick="gånger()">x</button>
+            <button onclick="upphöjtMed()">^</button>
+        </div>
+        <div class="kolumn-2">
+        <label>Svar: </label><input id="svar" type="text">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

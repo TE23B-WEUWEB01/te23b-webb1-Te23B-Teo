@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webb-Quiz & Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <h1>Webb-Quiz & Flashcards</h1>
+        <button onclick="showQuiz()">Starta Quiz</button>
+        <button onclick="showFlashcards()">Visa Flashcards</button>
+        <button onclick="showMatching()">Matcha Frågor och Svar</button>
+    </div>
+
+    <div id="quizContainer" style="display: none;">
+        <h2>Quiz</h2>
+        <div id="quiz"></div>
+    </div>
+
+    <div id="flashcardsContainer" style="display: none;">
+        <h2>Flashcards</h2>
+        <button onclick="shuffleFlashcards()">Blanda kort</button>
+        <button onclick="toggleFlashcardOrder()">Växla fråga/svar</button>
+        <div id="flashcards"></div>
+    </div>
+
+    <div id="matchingContainer" style="display: none;">
+        <h2>Matcha Frågor och Svar</h2>
+        <div id="matching" class="matching-grid"></div>
+        <div id="matchingResult"></div>
+    </div>
+
+    <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    background: #cee3ab;
+}
+.kontainer{
+    width: 700px;
+    margin: auto;
+    padding: 30px;
+    background: rgb(130, 137, 215);
+}
+.kolumn-2{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.kolumn-4{
+width: 300px;
+margin: 20px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 10px;
+}
+input, button{
+    margin: 2px;
+    padding: 4px;
+    min-width: 50px;
+}
+button:hover{
+    background: rgb(160, 159, 159);
+}
+input:hover{
+    background: rgb(160, 159, 159);
+}
